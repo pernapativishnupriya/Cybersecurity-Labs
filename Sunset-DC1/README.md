@@ -1,40 +1,93 @@
 # 🔐 Sunset: DC-1
 
-## Overview
+## 📌 Overview
 
-Sunset: DC-1 is a penetration testing lab completed in a controlled environment to improve my practical cybersecurity skills. This challenge helped me understand the importance of systematic enumeration, service analysis, and privilege escalation.
+Sunset: DC-1 is a Linux-based penetration testing lab completed in a controlled environment as part of my cybersecurity learning journey. This lab provided practical experience in information gathering, service enumeration, and Linux system analysis.
 
-## Objective
+---
 
-- Practice penetration testing methodology.
-- Improve enumeration techniques.
-- Gain hands-on experience in Linux-based environments.
-- Strengthen problem-solving skills.
+## 🎯 Objective
 
-## Skills Practiced
+- Perform information gathering and enumeration.
+- Identify open ports and running services.
+- Analyze exposed services.
+- Gain initial access in a controlled lab environment.
+- Improve practical penetration testing skills.
 
-- Information Gathering
-- Service Enumeration
-- Linux Enumeration
-- Vulnerability Assessment
-- Privilege Escalation
+---
 
-## Tools Used
+## 🛠️ Tools Used
 
 - Kali Linux
 - Nmap
+- FTP
+- SSH
 - Linux Terminal
 
-## Lab Screenshots
+---
 
-The screenshots related to this lab are available in the **images/** folder.
+## 💡 Skills Practiced
 
-## Key Takeaways
+- Information Gathering
+- Network Enumeration
+- Service Enumeration
+- Linux Enumeration
+- Vulnerability Assessment
+- Problem Solving
 
-- Enumeration is the most important phase of penetration testing.
-- A structured approach makes identifying vulnerabilities easier.
-- Practical labs improve both technical and analytical skills.
+---
 
-## Disclaimer
+## 📸 Lab Screenshots
 
-This lab was completed in an authorized environment for educational purposes only. No unauthorized systems were targeted.
+### 1️⃣ Host Discovery & Connectivity
+
+The target machine was identified using **Netdiscover**, and connectivity was verified using **Ping**.
+
+![Host Discovery](images/01-netdiscover-ping.png)
+
+---
+
+### 2️⃣ Service & OS Detection (Nmap -sV -O)
+
+Performed an Nmap scan to identify open ports, running services, and the target operating system.
+
+![Nmap Scan](images/02-nmap-sV-O.png)
+
+---
+
+### 3️⃣ Aggressive Scan (Nmap -A)
+
+Performed an aggressive scan to gather additional information about services and the target system.
+
+![Nmap Aggressive Scan](images/03-nmap-A.png)
+
+---
+
+### 4️⃣ FTP Enumeration
+
+Enumerated the FTP service to identify accessible resources within the lab environment.
+
+![FTP Enumeration](images/04-ftp-enumeration.png)
+
+---
+
+### 5️⃣ SSH Access
+
+Established SSH access to continue the assessment within the authorized lab environment.
+
+![SSH Login](images/05-ssh-login.png)
+
+---
+
+## 📖 Key Takeaways
+
+- Learned the importance of systematic enumeration.
+- Improved understanding of Linux-based penetration testing.
+- Strengthened practical experience with Nmap, FTP, and SSH.
+- Enhanced analytical thinking and problem-solving skills.
+
+---
+
+## ⚠️ Disclaimer
+
+This lab was completed in an authorized environment for educational purposes only. No unauthorized systems or networks were targeted.
