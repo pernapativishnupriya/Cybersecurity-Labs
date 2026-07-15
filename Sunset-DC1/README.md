@@ -87,7 +87,15 @@ Established SSH access to continue the assessment within the authorized lab envi
 - Enhanced analytical thinking and problem-solving skills through hands-on practice.
 
 ---
+---
 
+## 📄 Lab Report
+
+The complete lab report is available below.
+
+📄 **[View Sunset: DC-1 Report](sunset.pdf)**
+
+---
 
 ## ⚠️ Disclaimer
 
