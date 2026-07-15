@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-Sunset: DC-1 is a Linux-based penetration testing lab completed in a controlled environment as part of my cybersecurity learning journey. This lab provided practical experience in information gathering, service enumeration, and Linux system analysis.
+Sunset: DC-1 is a Linux-based penetration testing lab completed in a controlled environment as part of my cybersecurity learning journey. This lab provided practical experience in information gathering, enumeration, service analysis, and Linux system exploration.
 
 ---
 
@@ -12,7 +12,7 @@ Sunset: DC-1 is a Linux-based penetration testing lab completed in a controlled 
 - Identify open ports and running services.
 - Analyze exposed services.
 - Gain initial access in a controlled lab environment.
-- Improve practical penetration testing skills.
+- Strengthen practical penetration testing skills.
 
 ---
 
@@ -43,7 +43,7 @@ Sunset: DC-1 is a Linux-based penetration testing lab completed in a controlled 
 
 The target machine was identified using **Netdiscover**, and connectivity was verified using **Ping**.
 
-![Host Discovery](images/1.netdiscover and ping of ip.png)
+![Host Discovery](images/1.netdiscover%20and%20ping%20of%20ip.png)
 
 ---
 
@@ -51,15 +51,15 @@ The target machine was identified using **Netdiscover**, and connectivity was ve
 
 Performed an Nmap scan to identify open ports, running services, and the target operating system.
 
-![Nmap Scan]()
+![Nmap Service Detection](images/2.nmap%20-sV%20-O%20.png)
 
 ---
 
 ### 3️⃣ Aggressive Scan (Nmap -A)
 
-Performed an aggressive scan to gather additional information about services and the target system.
+Performed an aggressive Nmap scan to gather additional information about the target.
 
-![Nmap Aggressive Scan]()
+![Nmap Aggressive Scan](images/3.%20nmap-A.png)
 
 ---
 
@@ -67,7 +67,7 @@ Performed an aggressive scan to gather additional information about services and
 
 Enumerated the FTP service to identify accessible resources within the lab environment.
 
-![FTP Enumeration]()
+![FTP Enumeration](images/4.ftp-enumeration.png)
 
 ---
 
@@ -75,18 +75,19 @@ Enumerated the FTP service to identify accessible resources within the lab envir
 
 Established SSH access to continue the assessment within the authorized lab environment.
 
-![SSH Login]()
+![SSH Login](images/5.%20ssh%20sunset%20login.png)
 
 ---
 
 ## 📖 Key Takeaways
 
-- Learned the importance of systematic enumeration.
-- Improved understanding of Linux-based penetration testing.
-- Strengthened practical experience with Nmap, FTP, and SSH.
-- Enhanced analytical thinking and problem-solving skills.
+- Learned the importance of systematic enumeration before exploitation.
+- Improved practical experience with Linux-based penetration testing.
+- Strengthened knowledge of service discovery and network reconnaissance.
+- Enhanced analytical thinking and problem-solving skills through hands-on practice.
 
 ---
+
 
 ## ⚠️ Disclaimer
 
