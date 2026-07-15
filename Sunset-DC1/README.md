@@ -43,7 +43,7 @@ Sunset: DC-1 is a Linux-based penetration testing lab completed in a controlled 
 
 The target machine was identified using **Netdiscover**, and connectivity was verified using **Ping**.
 
-![Host Discovery](images/01-netdiscover-ping.png)
+![Host Discovery](images/1.netdiscover and ping of ip.png)
 
 ---
 
@@ -51,7 +51,7 @@ The target machine was identified using **Netdiscover**, and connectivity was ve
 
 Performed an Nmap scan to identify open ports, running services, and the target operating system.
 
-![Nmap Scan](images/02-nmap-sV-O.png)
+![Nmap Scan]()
 
 ---
 
@@ -59,7 +59,7 @@ Performed an Nmap scan to identify open ports, running services, and the target 
 
 Performed an aggressive scan to gather additional information about services and the target system.
 
-![Nmap Aggressive Scan](images/03-nmap-A.png)
+![Nmap Aggressive Scan]()
 
 ---
 
@@ -67,7 +67,7 @@ Performed an aggressive scan to gather additional information about services and
 
 Enumerated the FTP service to identify accessible resources within the lab environment.
 
-![FTP Enumeration](images/04-ftp-enumeration.png)
+![FTP Enumeration]()
 
 ---
 
@@ -75,7 +75,7 @@ Enumerated the FTP service to identify accessible resources within the lab envir
 
 Established SSH access to continue the assessment within the authorized lab environment.
 
-![SSH Login](images/05-ssh-login.png)
+![SSH Login]()
 
 ---
 
